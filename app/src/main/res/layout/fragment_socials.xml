@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgl"
+    tools:context=".SocialsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/history_of_colegio_de_san_juan_de_letran"
+            android:textAlignment="center"
+            android:textColor="@color/letran"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/rev_fr_teodulo_cajigal_op"
+            android:textAlignment="center"
+            android:textColor="@color/letran"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/paragraph1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="16dp"
+            android:text="@string/the_late_rev_fr_teodulo_cajigal_op_a_spanish_dominican_priest_who_spent_the_best_years_of_his_life_in_manaoag_and_who_chose_to_die_and_be_buried_in_this_rustic_and_quiet_town_used_to_go_around_through_its_small_streets_distributing_candies_and_coins_to_little_children_that_was_his_way_of_showing_great_affection_to_people_of_manaoag_the_people_especially_the_children_loved_him_dearly_in_return_later_the_good_fr_cajigal_decided_to_give_children_more_than_just_the_perishable_candies_and_coins_by_providing_them_something_that_will_last_a_lifetime_and_which_would_make_a_difference_for_their_future_and_that_of_the_town_education_it_was_then_that_the_academy_was_born"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:backgroundTintMode="add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="TextContrastCheck,UnusedAttribute,VisualLintLongText" />
+
+        <TextView
+            android:id="@+id/paragraph2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="16dp"
+            android:text="@string/where_it_all_began_the_academy_n_n_the_holy_rosary_academy_of_manaoag_was_founded_in_1947_by_rev_fr_teodulo_cajigal_op_with_the_primary_purpose_of_providing_the_children_of_manaoag_with_catholic_education_this_institution_started_only_as_an_elementary_school_however_when_another_building_was_completed_in_1949_a_complete_high_school_course_offering_was_made_possible_the_government_granted_the_school_official_recognition_in_1951_in_1952_the_first_high_school_commencement_exercises_were_held_the_convent_of_the_dominican_fathers_was_initially_located_within_the_school_campus_in_1954_when_a_new_building_was_completed_at_the_opposite_site_of_the_church_the_convent_of_the_dominican_fathers_was_relocated_there_the_vacancy_of_the_former_convent_made_possible_the_segregation_of_the_high_school_boys_and_girls_the_former_remained_in_the_old_high_school_building_while_the_latter_began_to_hold_their_classes_in_the_vacated_building_both_schools_were_managed_for_a_decade_by_franciscan_sisters_of_the_immaculate_conception_assisted_by_a_staff_of_lay_teachers_the_dominican_fathers_helped_in_the_teaching_of_religion_and_in_the_religious_activities_when_the_contract_with_the_franciscan_sisters_expired_in_1975_the_dominican_daughters_of_the_immaculate_mother_took_over_the_administration_ofthe_school_after_a_year_the_ddim_sisters_adopted_for_the_school_a_non_graded_open_system_of_education_patterned_after_the_angelicum_school_of_quezon_city_another_institution_run_by_the_dominican_fathers_in_1982_the_dominican_fathers_took_over_the_administration_of_the_school_from_the_dominican_daughters_of_the_immaculate_mother_however_due_to_the_growing_demands_of_the_apostolate_of_the_shrine_and_parish_of_our_lady_of_manaoag_the_fathers_entrusted_the_management_of_the_school_to_the_congregation_of_religious_missionaries_of_saint_dominic_the_dominican_missionary_sisters_began_their_stint_in_the_academy_in_1991"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paragraph1"
+            tools:ignore="TextContrastCheck,VisualLintLongText" />
+
+        <TextView
+            android:id="@+id/paragraph3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="16dp"
+            android:text="@string/a_leap_forward_the_college_n_n_to_be_of_greater_service_to_the_local_community_the_board_of_trustees_of_the_holy_rosary_academy_with_rev_fr_quirico_pedregosa_op_as_chairman_decided_in_july_2000_to_offer_collegiate_courses_in_the_school_it_was_also_decided_on_that_same_date_that_the_name_of_the_institution_will_be_changed_to_our_lady_of_manaoag_college_that_very_same_year_the_provincial_council_of_the_dominican_province_of_the_philippines_confirmed_the_decision_of_the_board_of_trustees_the_decisions_made_by_the_concerned_authorities_fits_very_well_with_the_original_vision_of_the_late_fr_cajigal_to_provide_educational_opportunities_that_will_make_a_difference_in_the_lives_and_the_future_of_the_people_of_manaoag_and_the_nearby_localities_rev_fr_patricio_a_apa_op_incumbent_prior_of_our_lady_of_rosary_priory_and_sr_ma_corazon_r_moraza_op_worked_for_the_approval_of_the_college_by_the_commission_on_higher_education_ched_in_2001_the_commission_on_higher_education_granted_the_institution_a_permit_to_offer_collegiate_courses_in_the_arts_and_humanities_education_business_and_computer_education_likewise_the_technical_skills_development_authority_tesda_granted_the_institution_a_permit_to_offer_vocational_courses_such_as_computer_programming_computer_secretarial_and_computer_technology_the_institution_started_operating_as_our_lady_of_manaoag_college_in_june_2001_the_tesda_programs_received_its_government_recognition_on_the_same_year_2001"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paragraph2"
+            tools:ignore="TextContrastCheck,VisualLintLongText" />
+
+        <TextView
+            android:id="@+id/paragraph4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="16dp"
+            android:text="@string/government_recognition_for_the_college_courses_n_n_sr_ma_lorenza_s_sajul_op_continued_the_worked_of_sr_ma_corazon_r_moraza_op_on_obtaining_its_government_recognition_the_first_course_that_received_its_government_recognition_is_the_bachelor_of_science_in_commerce_on_may_2004_this_was_followed_by_the_courses_bachelor_of_science_in_information_technology_and_bachelor_of_science_in_computer_science_both_courses_received_its_government_recognition_on_june_2004_in_the_following_year_after_working_hard_on_the_demands_of_its_requirements_for_government_recognition_the_two_courses_bachelor_of_secondary_education_and_the_bachelor_of_elementary_education_received_its_government_recognition_on_april_2005_n_n_integration_to_letran_system_n_n_in_the_10th_acts_of_the_provincial_chapter_of_the_dominican_province_of_the_philippines_held_on_april_10_30_2012_at_the_priory_of_our_lady_of_the_rosary_manaoag_pangasinan_the_chapter_decided_to_align_their_schools_into_two_2_traditions_ust_tradition_and_letran_tradition_the_dppi_after_much_deliberation_decided_that_our_lady_of_manaoag_college_will_be_under_the_letran_group_hence_the_name_of_the_school_was_changed_to_colegio_de_san_juan_de_letran_manaoag_after_the_moa_signing_with_the_other_letran_institutions_on_august_8_2014_and_the_approval_of_the_school_s_board_of_trustees_on_sept_6_2014_our_lady_of_manaoag_college_has_become_officially_colegio_de_san_juan_de_letran_manaoag_its_new_name_was_officially_launched_on_october_3_2014"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paragraph3"
+            tools:ignore="TextContrastCheck,VisualLintLongText" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rev"
+            app:layout_constraintBottom_toTopOf="@+id/paragraph1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/referencetext"
+            android:layout_width="384dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="2872dp"
+            android:autoLink="web"
+            android:fontFamily="@font/poppins_italic"
+            android:padding="16dp"
+            android:text="@string/reference_https_www_letran_manaoag_edu_ph_about_letran_manaoag_text_the_20late_20rev_and_20coins_20to_20little_20children"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paragraph1"
+            tools:ignore="TextContrastCheck,VisualLintLongText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

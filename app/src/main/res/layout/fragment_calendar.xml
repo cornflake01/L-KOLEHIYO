@@ -1,0 +1,114 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgp">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#D3D3D3"
+        android:layout_marginBottom="16dp"
+        android:queryHint="Search Events"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Event 1 -->
+            <TextView
+                android:id="@+id/eventTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                android:onClick="toggleEvent"
+                android:text="August 1-31, 2023: BALIK ARRIBA MONTH \nBuwan ng Wikang Pambansa"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- Event 2 -->
+            <TextView
+                android:id="@+id/eventTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                android:onClick="toggleEvent"
+                android:text="August 1-15, 2023: Teacher Preparation of PPT, SLM-Flex, Classroom"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/eventTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                android:onClick="toggleEvent"
+                android:text="August 3,4,7, 2023: Trudium in Honor of St. Dominic de Guzman"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/eventTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                android:onClick="toggleEvent"
+                android:text="August 8, 2023: Feast of St. Dominic"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/eventTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLines="1"
+                android:onClick="toggleEvent"
+                android:text="August 15-18, 2023: Submission of 1st Quarter PPT, SLM-Flex"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- Add more events as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

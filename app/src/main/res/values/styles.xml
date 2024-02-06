@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NavigationView" parent="Base.Theme.AppCompat">
+        <item name="android:textViewStyle">@style/AppTheme.MenuTextView</item>
+    </style>
+
+    <style name="AppTheme.MenuTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+</resources>
